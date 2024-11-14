@@ -1,0 +1,31 @@
+>>> actions.list("tracking")
+tracking.calibrate() -> None
+  Calibrate Eye Tracking
+tracking.control1_enabled() -> bool
+  Is Control Mouse (Legacy) Enabled?
+tracking.control1_toggle(state: bool = None) -> None
+  Toggle Control Mouse (Legacy)
+tracking.control_debug_toggle(state: bool = None) -> None
+  Toggle Control Mouse 2 (Debug View)
+tracking.control_enabled() -> bool
+  Is Control Mouse Enabled?
+tracking.control_gaze_focus_toggle(state: bool = None) -> None
+  Toggle Control Mouse 2 (Gaze Focus)
+tracking.control_gaze_scroll_toggle(state: bool = None) -> None
+  Toggle Control Mouse 2 (Gaze Scroll)
+tracking.control_gaze_toggle(state: bool = None) -> None
+  Toggle Control Mouse 2 (Gaze Control)
+tracking.control_head_toggle(state: bool = None) -> None
+  Toggle Control Mouse 2 (Head Control)
+tracking.control_mouse_jump_toggle(state: bool = None) -> None
+  Toggle Control Mouse 2 (Mouse Jump)
+tracking.control_toggle(state: bool = None) -> None
+  Toggle Control Mouse
+tracking.control_zoom_enabled() -> bool
+  Is Control Mouse (Zoom) Enabled?
+tracking.control_zoom_toggle(state: bool = None) -> None
+  Toggle Control Mouse (Zoom)
+tracking.zoom() -> None
+  Trigger Eye Zoom / Click
+tracking.zoom_cancel() -> None
+  Cancel Eye Zoom
